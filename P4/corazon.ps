@@ -1,0 +1,57 @@
+%!PS
+
+% Configuración del texto
+/Helvetica findfont 20 scalefont setfont
+
+% Texto en tonos de gris
+0.9 setgray
+235 150 moveto
+(Podra nublarse el sol eternamente;) show
+
+0.7 setgray
+235 125 moveto
+(podra secarse en un instante el mar:) show
+
+0.5 setgray
+235 100 moveto
+(podra romperse el eje de la tierra) show
+
+0.3 setgray
+235 75 moveto
+(como un debil cristal.) show
+
+0.1 setgray
+235 50 moveto
+(La llama de tu amor, nunca se apagara) show
+
+% Definir el color rojo
+1 0 0 setrgbcolor
+
+% Dibujar los dos círculos rojos
+newpath
+150 300 50 0 360 arc
+fill
+
+newpath
+250 300 50 0 360 arc
+fill
+
+% Dibujar el triángulo
+newpath
+107 275 moveto
+293 275 lineto
+200 175 lineto
+closepath
+fill
+stroke
+
+% Dibujar el triángulo
+newpath
+107 275 moveto
+293 275 lineto
+200 300 lineto
+closepath
+fill
+stroke
+
+showpage

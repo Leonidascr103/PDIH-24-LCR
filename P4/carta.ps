@@ -1,0 +1,44 @@
+%!PS
+
+% Configuración del texto
+
+% Circulo relleno gris
+0 0 0 setrgbcolor
+newpath
+100 400 100 0 360 arc
+fill
+0.5 0.5 0.5 setrgbcolor
+newpath
+100 400 95 0 360 arc
+0.5 setgray
+fill
+
+
+% Texto en negrita y grande
+0 setgray
+/Helvetica-Bold findfont 24 scalefont setfont
+300 450 moveto
+(Drago Kovacevic) show
+
+% Texto normal
+0.55 setgray
+/Helvetica findfont 12 scalefont setfont
+300 435 moveto
+(Ejecutivo de cuentas.)
+show 
+300 400 moveto
+(Pº de la Castellana, 141,) 
+show
+300 375 moveto
+(Local 2- Edificio Cuzco IV)
+show
+300 350 moveto 
+(28046 Madrid)
+show
+300 325 moveto 
+(Telefs: 914 174 550/669 896 224)
+show
+300 300 moveto
+(drago@serotel.es) 
+show
+showpage
